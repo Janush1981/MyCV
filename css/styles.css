@@ -1,0 +1,265 @@
+body {
+    font-family: 'Mariupol', sans-serif;
+    background-color: #F5F7FA;
+}
+
+/* main styles */
+
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    padding: auto;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* main titles styles*/
+
+.main-titles {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+/* main content styles */
+
+.main-content {
+    color: #1E2939;
+    background-color: #FFFFFF;
+    padding: 105px 50px;
+}
+
+/* about styles */
+
+.about {    
+    color: #000000;
+    background-color: #FFFFFF;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+}
+
+.about-position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.about-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+}
+
+/* user description styles*/
+
+.about-description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #1E2939;
+    width: 100%;
+    /* margin: 0 0 0 0; */
+}
+
+/* projects styles */
+
+.projects {
+    font-size: 14px;
+    background-color: #FFFFFF;
+    margin: 40px 0 50px 0;
+}
+
+.project-list {
+    padding: 0 0 0 15px;
+}
+
+.projects a {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    text-decoration-line: none;
+    color: #595959;
+    
+    display: inline-flex;
+    width: 50%;
+    min-width: 180px; 
+
+    padding-left: 10px;
+}
+
+.underline {
+    flex-grow: 1;
+    border-bottom: 1px dashed #A8A8A8;
+}
+
+.projects li::marker {
+    
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    color: #000000;
+}
+
+.project-brackets {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+}
+
+/* work, education styles */
+
+.work, .education {
+    font-size: medium;
+    background-color: #FFFFFF;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.position {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.period {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-bottom: 10px;    
+}
+
+.organization {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+}
+
+.work-item {
+    padding-left: 15px;
+}
+
+.work-item li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.line {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.university {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FB6D3A;
+    margin-bottom: 10px;
+}
+
+/* side-bar styles */
+
+.side-bar {
+    color: #FFFFFF;
+    background-color: #1E2939;
+    width: 75%;
+    min-width: 180px;
+}
+
+/* side-bar-title styles */
+
+.side-bar-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin: 0 0 10px 0;
+}
+
+/* myPhoto styles */
+
+.side-bar img {
+    /* position: relative; */
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+
+/* Contacts styles */
+
+.side-bar a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 10px;
+    color: #8E949C;
+}
+
+/* contacts, .tech-skills, .soft-skills styles */
+
+.contacts, .tech-skills, .soft-skills {
+    font-size: medium;
+    font-style: normal;
+    margin: 0 0 40px 40px;
+    padding: 0; 
+}
+
+.contacts-type {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 10px;
+    color: #FFFFFF;
+    margin: 0 10px 0 0;
+}
+
+.skills-list {
+    padding: 0 0 0 20px ;
+}
+
+.skills-item {
+    color: #FB6D3A;
+}
+
+.skills-list-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.foot {
+    position: absolute;
+    top: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
